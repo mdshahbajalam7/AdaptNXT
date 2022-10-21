@@ -47,7 +47,12 @@ function Products() {
         name="file"
         onChange={changeHandler}
         accept=".csv"
-        style={{ display: "block", margin: "10px auto" }}
+        style={{
+          display: "block",
+          margin: "10px auto",
+          marginTop: "10%",
+          width: "20%",
+        }}
       />
       <br />
       <br />
@@ -63,13 +68,16 @@ function Products() {
         <tbody>
           {values.map((value, index) => {
             return (
-              <tr key={index}>
+              <tr
+                style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
+                key={index}
+              >
                 {value.map((val, i) => {
                   return (
-                    <td key={i}>
+                    <td style={{ marginTop: "20px" }} key={i}>
                       {" "}
                       <p>{val}</p>
-                      <img src={val} alt="" />
+                      <img src={val.posterUrl} alt="" />
                     </td>
                   );
                   {

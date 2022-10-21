@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+  margin: auto;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  z-index: 20;
+  padding: 10px;
+}
+.navbar h3{
+  margin-top:10px;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+}
