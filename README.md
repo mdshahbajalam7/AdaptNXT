@@ -1,2 +1,2 @@
 # AdaptNXT
-# netlify Link https://adaptnxtassignment.netlify.app/
+## Netlify Link https://adaptnxtassignment.netlify.app/
